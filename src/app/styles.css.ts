@@ -3,6 +3,7 @@ import { style } from "@vanilla-extract/css";
 export const container = style({
 	padding: 10,
 	backgroundColor: "green",
+	position: "relative",
 	"@media": {
 		"screen and (max-width: 600px)": {
 			backgroundColor: "lightblue",
